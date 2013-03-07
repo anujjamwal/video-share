@@ -18,11 +18,20 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
+  #file uploads
+  gem 'paperclip'
+  gem 'paperclip-ffmpeg'
 end
 
 gem 'jquery-rails'
 
-gem 'rspec-rails'
+
+
+group :test do
+  gem 'shoulda-matchers'
+  gem 'rspec-rails'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

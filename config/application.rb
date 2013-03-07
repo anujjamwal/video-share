@@ -64,5 +64,7 @@ module Webapp
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    Paperclip.options.merge! YAML.load(File.read("#{Rails.root}/config/paperclip.yml"))[Rails.env]
   end
 end

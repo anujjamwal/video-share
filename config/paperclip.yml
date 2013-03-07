@@ -1,0 +1,11 @@
+development:
+  options:
+    command_path: "/usr/local/bin/"
+
+test:
+  options:
+    command_path: "/usr/local/bin/"
+
+production:
+  options:
+    command_path: "/usr/local/bin/"
