@@ -1,0 +1,4 @@
+<%= form_for @session, :html => { :multipart => true } do |f| %>
+    <%= f.file_field :video %>
+    <%= f.submit %>
+<% end %>
