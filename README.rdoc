@@ -3,4 +3,4 @@ To test the basic video upload and playback in rails app
 
 === Dependencies
 
-  ffmpeg  For media conversion
+  ffmpeg : For media conversion
